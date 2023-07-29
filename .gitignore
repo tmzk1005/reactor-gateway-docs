@@ -1,0 +1,7 @@
+.vscode
+*.swp
+*.iml
+.hugo_build.lock
+public/
+resources/
+
