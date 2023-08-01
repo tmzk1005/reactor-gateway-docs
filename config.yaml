@@ -2,3 +2,50 @@ baseURL: 'http://127.0.0.1:1313/'
 languageCode: 'zh-cn'
 title: 'Reactor-Gateway-Document'
 
+# https://github.com/thegeeklab/hugo-geekdoc.git
+theme: 'hugo-geekdoc'
+
+defaultContentLanguage: "zh-cn"
+hasCJKLanguage: true
+
+languages:
+  zh-CN:
+    languageName: "中文"
+    contentDir: "content/zh-cn"
+    weight: 10
+
+enableRobotsTXT: true
+pluralizeListTitles: false
+pygmentsUseClasses: true
+pygmentsCodeFences: true
+disablePathToLower: true
+
+params:
+  geekdocCollapseAllSections: true
+  geekdocNextPrev: true
+  geekdocBreadcrumb: true
+
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: false
+    noClasses: true
+    # style的可选值见 https://xyproto.github.io/splash/docs/all.html
+    # 这里列出几个:
+    # 浅色: monokailight solarized-light abap igor manni paraiso-light perldoc
+    # 深色: monokai solarized pygments paraiso-dark
+    style: monokai
+    tabWidth: 4
+  tableOfContents:
+    startLevel: 1
+    endLevel: 4
+    ordered: true
+  goldmark:
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xhtml: true
+

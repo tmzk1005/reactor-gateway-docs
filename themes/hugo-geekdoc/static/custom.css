@@ -1,0 +1,57 @@
+/* You can add custom styles here. */
+
+@media screen {
+    @media (min-width: 680px) {
+
+        .container {
+            max-width: 90%;
+        }
+
+        .wrapper {
+            position: relative;
+        }
+
+        header.gdoc-header .gdoc-brand {
+            font-size: 1.25rem;
+            line-height: 1.5rem;
+        }
+
+        header.gdoc-header .container {
+            padding: 0.6rem 1.25rem;
+        }
+
+        header.gdoc-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 99;
+        }
+
+        main.container {
+            padding-top: 60px;
+        }
+
+        aside.gdoc-nav {
+            position: fixed;
+            top: 60px;
+            width: 24rem;
+            z-index: 99;
+        }
+
+        .gdoc-nav nav {
+            width: 24rem;
+            overflow: auto;
+            overflow-y: auto;
+            height: calc(100vh - 56px);
+        }
+
+        aside+div.gdoc-page {
+            padding-left: 24rem;
+            will-change: auto;
+            margin-left: 1rem;
+        }
+
+    }
+}
+
