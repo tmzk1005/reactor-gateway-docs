@@ -57,6 +57,11 @@
             list-style-type: none;
         }
 
+        .gdoc-button {
+            background: deepskyblue;
+            border: 1px solid
+        }
+
     }
 }
 
