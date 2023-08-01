@@ -9,6 +9,7 @@ geekdocAnchor: false
 参考借鉴了[Spring-Cloud-Gateway](https://github.com/spring-cloud/spring-cloud-gateway)和[Gravitee](https://www.gravitee.io)
 等其它开源API网关的设计思想。有可视化的API路由配置界面，部署简单，易于配置和使用，并且有不俗的性能。适合于在企业在数字化转型业务中用于不同系统中的融合。
 
+{{< button size="large" relref="简介" >}}简介{{< /button >}}
 {{< button size="large" relref="快速开始" >}}快速开始{{< /button >}}
 
 ## 功能特点
