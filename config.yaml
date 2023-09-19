@@ -30,7 +30,7 @@ markup:
     codeFences: true
     guessSyntax: true
     lineNoStart: 1
-    lineNos: true
+    lineNos: false
     lineNumbersInTable: false
     noClasses: true
     # style的可选值见 https://xyproto.github.io/splash/docs/all.html
