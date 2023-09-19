@@ -57,5 +57,5 @@ bin/rgw-gateway.sh --environment.id=prod --server.port=8002
 
 ```sh
 cd /opt/reactor-gateway-0.0.1
-bin/rgw-access-log-consumer.sh --environment.id=dev,test,prod
+bin/rgw-access-log-consumer.sh --environments=dev,test,prod
 ```

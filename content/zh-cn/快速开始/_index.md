@@ -58,6 +58,13 @@ rgw-compose_mongodb_1               /docker-entrypoint.sh --bi ...   Up      0.0
 
 新建API需要使用普通用户`rgw1`登录。
 
-## 3. 新建第一个API
+## 3. 功能简单体验
 
-新建一个最简单的Mock API :
+1. 新建一个简单的Mock API
+2. 使用curl请求新建的API
+3. 查看访问日志
+
+<video width="60%" controls>
+  <source src="./create-api.webm">
+</video>
+
