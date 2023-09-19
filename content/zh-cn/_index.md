@@ -5,7 +5,7 @@ geekdocAlign: center
 geekdocAnchor: false
 ---
 
-`Reactor-Gateway`是一个基于[Reactor-Netty](https://github.com/reactor/reactor-netty)实现的响应式API网关。参考借鉴了[Spring-Cloud-Gateway](https://github.com/spring-cloud/spring-cloud-gateway)和[Gravitee](https://www.gravitee.io)等其它开源API网关的设计思想。有可视化的API路由配置界面，部署简单，易于配置和使用，并且有不俗的性能。适合于在企业在数字化转型业务中用于不同系统中的融合。`Reactor-Gateway`是一个基于[Reactor-Netty](https://github.com/reactor/reactor-netty)实现的**响应式**API网关。`Reactor-Gateway`主要是作为一个**业务型**的API网关来设计的，和流量型的API网关有一定的区别。常用的微服务网关[Spring-Cloud-Gateway](https://github.com/spring-cloud/spring-cloud-gateway)是基于`Spring-Boot`和`Spring-WebFlux`的，而`Spring-WebFlux`的底层也是基于`Reactor-Netty`。此网关借鉴了一些`Spring-Cloud-Gateway`中比较好的设计思想，但是不使用任何Spring相关的框架，而是直接基于`Reactor-Netty`来实现，安装包的大小，资源消耗，性能等方面要优于`Spring-Cloud-Gateway`。
+`Reactor-Gateway`是一个基于[Reactor-Netty](https://github.com/reactor/reactor-netty)实现的**响应式API**网关。参考借鉴了[Spring-Cloud-Gateway](https://github.com/spring-cloud/spring-cloud-gateway)和[Gravitee](https://www.gravitee.io)等其它开源API网关的设计思想。有可视化的API路由配置界面，部署简单，易于配置和使用，并且有不俗的性能。适合于在企业在数字化转型业务中用于不同系统中的融合。`Reactor-Gateway`主要是作为一个**业务型**的API网关来设计的，和流量型的API网关有一定的区别。常用的微服务网关[Spring-Cloud-Gateway](https://github.com/spring-cloud/spring-cloud-gateway)是基于`Spring-Boot`和`Spring-WebFlux`的，而`Spring-WebFlux`的底层也是基于`Reactor-Netty`。此网关借鉴了一些`Spring-Cloud-Gateway`中比较好的设计思想，但是不使用任何Spring相关的框架，而是直接基于`Reactor-Netty`来实现，安装包的大小，资源消耗，性能等方面要优于`Spring-Cloud-Gateway`。
 
 {{< button size="large" relref="简介" >}}简介{{< /button >}}
 {{< button size="large" relref="快速开始" >}}快速开始{{< /button >}}
