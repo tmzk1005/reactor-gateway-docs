@@ -64,7 +64,7 @@ rgw-compose_mongodb_1               /docker-entrypoint.sh --bi ...   Up      0.0
 2. 使用curl请求新建的API
 3. 查看访问日志
 
-<video width="60%" controls>
+<video width="60%" preload="metadata" controls>
   <source src="./create-api.webm">
 </video>
 
